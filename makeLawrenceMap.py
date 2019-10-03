@@ -5,21 +5,15 @@
 # *                                                                           *
 # * The contents of this script are:                                          *
 # * 1. Importing Libraries                                                    *
-# * 2. Get data                                                               *
-# * 3. Create train and test set                                              *
-# * 4. Get balanced dataset                                                   *
-# * 5. Visualize data set: Pair Plot                                          *
-# * 6. Visualize data set: Correlation Matrix                                 *
-# * 7. Visualize data set: Distribution of Amount                             *
-# * 8. Average per fraudelent transaction                                     *
-# * 9. Classifiers                                                            *
-# * 10. Hyper-parameters                                                      *
-# * 11. Classifier Tuning and Evaluation                                      *
-# * 12. Visualing Results: Recall Score Bar Plot                              *
-# * 13. Visualing Results: Precision Bar Plot                                 *
-# * 14. Determining Best Classifier                                           *
-# * 15. Get False Positives ... Test Set for Extra Trees Ensemble             *
-# * 16. Pair Plot for True Positives and False Positives                      *
+# * 2. Version Check                                                          *
+# * 3. Get Data                                                               *
+# * 4. Unpack Data                                                            *
+# * 5. Assign Each Segment a Color Based on its Length                        *
+# * 6. Assign Each Segment a Width Based on its type                          *
+# * 7. Make Map                                                               *
+# * 8. Helper Functions: Add Border to the Map                                *
+# * 9. Adding Border to Map                                                   *
+# * 10. Adding Text to Map                                                     *
 # *                                                                           *
 # * --------------------------------------------------------------------------*
 # * AUTHORS(S): Frank Ceballos <frank.ceballos89@gmail.com>                   *
@@ -126,7 +120,7 @@ for item in data:
 
 
 ###############################################################################
-#                                 7. Make Map                                 #
+#                               7. Make Map                                   #
 ###############################################################################
 # Center of map
 latitude = 38.960323 
